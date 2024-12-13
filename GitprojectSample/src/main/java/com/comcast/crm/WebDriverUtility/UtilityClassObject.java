@@ -24,4 +24,9 @@ public static void setDriver(WebDriver actDriver)//to use the driver object
 {
 	driver.set(actDriver);
 }
+
+public void c()
+{
+	System.out.println("hi");
+}
 }
