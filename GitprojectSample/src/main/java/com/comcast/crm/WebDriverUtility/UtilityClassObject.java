@@ -17,7 +17,9 @@ public static void setTest(ExtentTest actTest)
 	test.set(actTest);
 }
 public static WebDriver getDriver(){//to access the driver object
+	System.out.println("hi");
 	return driver.get();
+	
 }
 
 public static void setDriver(WebDriver actDriver)//to use the driver object
