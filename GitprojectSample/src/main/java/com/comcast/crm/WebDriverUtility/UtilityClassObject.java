@@ -23,6 +23,7 @@ public static WebDriver getDriver(){//to access the driver object
 public static void setDriver(WebDriver actDriver)//to use the driver object
 {
 	driver.set(actDriver);
+	System.out.println("driver object");
 }
 
 public void ci()
