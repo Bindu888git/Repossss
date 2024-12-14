@@ -76,8 +76,8 @@ public class WebDriverUtility {
 		Set<String> allwins = driver.getWindowHandles();
 		for (String wins : allwins) {
 			driver.switchTo().window(wins);
-			String Titles = driver.getTitle();
-			if (Titles.contains(partialtTitle)) {
+			String Titles1 = driver.getTitle();
+			if (Titles1.contains(partialtTitle)) {
 				
 				break;
 
